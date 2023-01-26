@@ -55,7 +55,7 @@ def add_time(start, duration, day_of_week = False):
       new_day = days_of_the_week_array[index]
       returnTime += ", " + new_day
       
-    ##Set up the returnTime (next day or 2 days later)
+    #Set up the returnTime (next day or 2 days later)
     if (amount_of_days == 1):
       return returnTime + " " + "(next day)"
     elif (amount_of_days > 1):
